@@ -39,6 +39,10 @@
         margin: 0;
         padding: 0;
     }
+    .list-topics ul {
+        margin: 0;
+        padding: 10px;
+    }
 }
 
 @media(width<550px){
@@ -64,17 +68,15 @@
     .destaque{
         grid-area: 2/1/3/-1;
     }
-
+    .content-main{
+        padding: 45px 25px;
+    }
     
 }
 
 @media(width<490px){
     .content-main{
-        padding: 45px 30px;
-    }
-    .list-topics ul li{
-        margin: 0;
-        padding: 0px 0px 0px 0px;
+        padding: 45px 20px;
     }
 }
 
