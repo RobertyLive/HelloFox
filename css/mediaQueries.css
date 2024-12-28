@@ -28,6 +28,17 @@
     .sub-title .destaque-sub-title{
         font-size: .7rem;
     }
+
+    .list-topics{
+        display: grid;
+        align-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    .list-topics li{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media(width<550px){
@@ -61,11 +72,37 @@
     .content-main{
         padding: 45px 30px;
     }
+    .list-topics ul li{
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 @media(width<370px){
     h1, h2{
         font-size: 1.4rem;
+        word-wrap: break-word;
+    }
+
+    .title{
+        grid-area: 1/1/1/7;
+        justify-self: center;
+    }
+    .title-section02{
+        grid-area: 11/2/12/7;
+        text-align: center;
+    }
+
+    .topic-01{
+        grid-area: 14/2/15/7;
+    }
+
+    .list-topics ul li{
+        font-size: .7rem;
+    }
+
+    .list-topics{
+        padding: 10px;
         word-wrap: break-word;
     }
 }
