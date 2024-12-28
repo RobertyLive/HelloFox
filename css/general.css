@@ -1,0 +1,40 @@
+h1, h2, h3, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+p{
+    font-size: 1.25rem;
+    color: #04262D;
+    font-family: "EBGaramond";
+    line-height: 1.5;
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h1, h2{
+    font-family: "Gentium Book Plus";
+    color: #21606D;
+    letter-spacing: 1.3px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 350px auto 350px;
+}

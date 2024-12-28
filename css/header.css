@@ -1,0 +1,20 @@
+header{
+    background-color: #151D27;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+ul{
+    display: inherit;
+    gap: 25px;
+}
+
+ul a{
+    color: #F0F6F8;
+    padding: 15px 10px;
+    font-family: "EBGaramond";
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+}
